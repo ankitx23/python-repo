@@ -3,7 +3,7 @@
 
 def removelements(word, n):
     print('Original String: ', word)
-    x = word[:n]
+    x = word[n:]
     return x
 
 print(removelements("ANKITYADAV",6))
